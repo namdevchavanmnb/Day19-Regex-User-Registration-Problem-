@@ -4,6 +4,7 @@ import com.sun.tools.javac.Main;
 
 public class UserRegistrationMain {
     public static void main(String[] args) {
-        System.out.println("Welcome");
+        Validation validation=new Validation();
+        validation.checkFirstName();
     }
 }
